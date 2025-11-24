@@ -5,10 +5,23 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/Anovexdev/anovex-zk-core/actions/workflows/ci.yml">
+    <img src="https://github.com/Anovexdev/anovex-zk-core/actions/workflows/ci.yml/badge.svg" alt="CI Status">
+  </a>
+  <a href="https://github.com/Anovexdev/anovex-zk-core/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
+  </a>
+  <a href="https://t.me/anovexbot">
+    <img src="https://img.shields.io/badge/Telegram-Bot%20Live-26A5E4?logo=telegram" alt="Telegram Bot">
+  </a>
+</p>
+
+<p align="center">
   <a href="https://anovex.io">Website</a> •
   <a href="https://docs.anovex.io">Documentation</a> •
   <a href="https://trade.anovex.io">Trade App</a> •
-  <a href="https://anvscan.com">Explorer</a>
+  <a href="https://anvscan.com">Explorer</a> •
+  <a href="https://t.me/anovexbot">Telegram Bot</a>
 </p>
 
 ---
@@ -32,9 +45,18 @@ The platform combines custom ANV address system, AES-256-GCM encrypted key stora
 - **Privacy Wallet System**: Trade anonymously with custom ANV addresses
 - **Encrypted Key Storage**: AES-256-GCM encryption for private keys
 - **Multi-Chain Support**: Cross-chain deposits via bridge providers
-- **Telegram Bot Integration**: Instant trading through secure bot interface
+- **Telegram Bot**: Live trading bot at [@anovexbot](https://t.me/anovexbot) - try it now!
 - **Privacy Explorer**: Transaction monitoring at anvscan.com without address exposure
 - **Non-Custodial**: Users maintain full control of private keys at all times
+
+## Live Deployments
+
+| Service | Status | URL |
+|---------|--------|-----|
+| Trading Interface | 🟢 Live | [trade.anovex.io](https://trade.anovex.io) |
+| Transaction Explorer | 🟢 Live | [anvscan.com](https://anvscan.com) |
+| Telegram Bot | 🟢 Live | [@anovexbot](https://t.me/anovexbot) |
+| Documentation | 🟢 Live | [docs.anovex.io](https://docs.anovex.io) |
 
 ### Roadmap to Zero-Knowledge Privacy
 
@@ -205,13 +227,27 @@ See [API Documentation](https://docs.anovex.io/api) for complete endpoint refere
 
 ## Security
 
+### Current Security Measures
+
 - **Private Key Encryption**: AES-256-GCM encryption for all stored private keys
 - **Session Security**: Secure session management with PostgreSQL persistence
 - **Input Validation**: Comprehensive Zod schema validation on all API inputs
 - **Rate Limiting**: Protection against abuse and DDoS attacks
 - **Non-Custodial**: Users control their own keys at all times
 
-Read more in [Security Documentation](./docs/security.md).
+### Security Audit Status
+
+🔍 **Professional security audit in progress** - We are engaging with leading blockchain security firms to conduct comprehensive smart contract and infrastructure audits. Audit reports will be published upon completion.
+
+### Responsible Disclosure
+
+Found a security vulnerability? Please report it to:
+- **Email**: security@anovex.io
+- **PGP Key**: Available on request
+
+**Please do not** open public issues for security vulnerabilities. We take security seriously and will respond promptly to all reports.
+
+Read more in [SECURITY.md](./SECURITY.md).
 
 ## Development Roadmap
 
@@ -260,11 +296,23 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Explorer**: [anvscan.com](https://anvscan.com)
 - **X (Twitter)**: [@anovexofficial](https://x.com/anovexofficial)
 
-## Contact
+## Community & Support
 
-For questions, partnerships, or security reports:
-- Email: dev@anovex.io
-- X (Twitter): [@anovexofficial](https://x.com/anovexofficial)
+### Official Channels
+
+- **X (Twitter)**: [@anovexofficial](https://x.com/anovexofficial) - Announcements & updates
+- **Telegram Bot**: [@anovexbot](https://t.me/anovexbot) - Live trading platform
+- **GitHub**: [Anovexdev](https://github.com/Anovexdev) - Open source code
+
+### Contact
+
+- **General Inquiries**: dev@anovex.io
+- **Security Reports**: security@anovex.io
+- **Partnerships**: partnerships@anovex.io
+
+### Stay Updated
+
+Follow us on X for the latest updates, feature announcements, and community highlights.
 
 ---
 

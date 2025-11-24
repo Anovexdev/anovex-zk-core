@@ -211,19 +211,30 @@ Dedicated transaction explorer with privacy-preserved hashing system. View compl
 ### Wallet Management
 - `POST /api/wallet/create` - Generate new Anovex wallet
 - `POST /api/wallet/login` - Authenticate with private key
-- `GET /api/wallet/balance` - Retrieve wallet balances
+- `POST /api/wallet/import` - Import existing wallet from private key
+- `POST /api/wallet/switch` - Switch between multiple wallets
+- `GET /api/wallet/balance` - Retrieve portfolio balance (SOL + tokens + USD value)
+- `POST /api/wallet/logout` - End session
 
-### Trading
-- `POST /api/swap/buy` - Execute buy order
-- `POST /api/swap/sell` - Execute sell order
+### Token Swaps
 - `GET /api/swap/quote` - Get real-time swap quote with optimal routing
+- `POST /api/swap/execute` - Execute token swap via Jupiter aggregator
 
 ### Deposits & Withdrawals
-- `GET /api/deposit/address` - Generate deposit address
-- `POST /api/withdraw` - Submit withdrawal request
-- `GET /api/transactions` - Transaction history
+- `POST /api/deposit/initiate` - Initialize deposit flow with external chains
+- `GET /api/deposit/status/:depositId` - Check deposit status
+- `POST /api/withdraw/initiate` - Submit withdrawal request
+- `GET /api/withdraw/status/:withdrawId` - Check withdrawal status
 
-See [API Documentation](https://docs.anovex.io/api) for complete endpoint reference.
+### Transaction History
+- `GET /api/transactions` - Retrieve wallet transaction history
+- `GET /api/transactions/:hash` - Get transaction details by hash
+
+### Explorer (Public)
+- `GET /api/explorer/stats` - Network statistics and metrics
+- `GET /api/explorer/transactions` - Global transaction feed (paginated)
+
+See [API Documentation](./docs/api.md) for complete endpoint reference with examples.
 
 ## Security
 

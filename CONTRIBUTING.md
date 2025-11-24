@@ -2,6 +2,14 @@
 
 Thank you for your interest in contributing to Anovex Protocol! We welcome contributions from the community.
 
+## Getting Started
+
+New to Anovex? Check out issues labeled [`good first issue`](https://github.com/Anovexdev/anovex-zk-core/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) to get started.
+
+Questions? Reach out via:
+- X/Twitter: [@anovexofficial](https://x.com/anovexofficial)
+- Email: dev@anovex.io
+
 ## Code of Conduct
 
 - Be respectful and inclusive

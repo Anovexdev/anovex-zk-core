@@ -19,6 +19,8 @@ Anovex Protocol is a **privacy-focused trading platform** built on Solana, enabl
 
 The platform combines custom ANV address system, AES-256-GCM encrypted key storage, and privacy-preserved transaction hashing to deliver enhanced anonymity for retail and professional traders.
 
+> **Public Launch:** This repository represents the open source release of Anovex Protocol (November 2025). The core protocol was developed internally and is now available for community contribution and transparency.
+
 **Built with:**
 - Jupiter Aggregator for optimal swap routing
 - Custom privacy wallet infrastructure

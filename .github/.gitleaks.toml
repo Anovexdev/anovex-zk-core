@@ -1,0 +1,13 @@
+[allowlist]
+description = "Allowlist for false positives"
+paths = [
+  '''docs/api\.md''',
+]
+
+[[allowlist.regexes]]
+description = "Solana public addresses (token mints)"
+regex = '''EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v'''
+
+[[allowlist.regexes]]
+description = "Example/documentation addresses"
+regex = '''(So11111111111111111111111111111111111111112|TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA)'''
